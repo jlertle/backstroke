@@ -5,3 +5,13 @@ temp/npm-debug.log
 docs/
 gh-pages
 .creds
+coverage/
+*.sw*
+.nyc_output/
+build/
+.elasticbeanstalk/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
